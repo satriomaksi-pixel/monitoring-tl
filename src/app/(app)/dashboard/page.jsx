@@ -111,7 +111,7 @@ export default function Dashboard() {
                   const r = ringkas(list.filter((t) => t.opdId === id));
                   return (
                     <tr key={id}>
-                      <td className="td font-medium">{id === 'PUPR' ? 'Dinas PUPR' : 'Dinas Pendidikan'}</td>
+                      <td className="td font-medium">{id === 'PUPR' ? 'Dinas PUPR' : 'Disdikbud'}</td>
                       {URUTAN_TL.map((k) => <td key={k} className="td text-right">{r.hitung[k]}</td>)}
                       <td className="td text-right">{rupiah(r.nilaiRek)}</td>
                       <td className={`td text-right font-semibold ${r.lewat ? 'text-rose-700' : ''}`}>{r.lewat}</td>

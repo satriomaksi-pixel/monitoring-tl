@@ -1,15 +1,15 @@
-// DATA SIMULASI — seluruh nama orang, penyedia, sekolah, dan nomor dokumen adalah fiktif/dianonimkan
+// DATA SIMULASI — nama pengguna demo atas persetujuan tim; nama penyedia, sekolah, dan nomor dokumen fiktif/dianonimkan
 // sesuai ketentuan UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi.
 
 export const USERS = [
-  { id: 'U-INS', nama: 'Ir. H. Sutrisno', peran: 'inspektur' },
-  { id: 'U-ADM', nama: 'Rina Marlina, S.Kom.', peran: 'admin_inspektorat' },
-  { id: 'U-DAL', nama: 'Bambang Wicaksono, S.E., M.Si.', peran: 'dalnis' },
-  { id: 'U-KT', nama: 'Sari Puspita, S.E., CGCAE', peran: 'ketua_tim' },
-  { id: 'U-AT1', nama: 'Dimas Aditya, S.Ak.', peran: 'anggota_tim' },
-  { id: 'U-AT2', nama: 'Lestari Ningsih, S.E.', peran: 'anggota_tim' },
-  { id: 'U-OPD1', nama: 'Admin Dinas PUPR', peran: 'admin_opd', opdId: 'PUPR' },
-  { id: 'U-OPD2', nama: 'Admin Dinas Pendidikan', peran: 'admin_opd', opdId: 'DISDIK' },
+  { id: 'U-INS', nama: 'Muhajir Syahab, S.E.', peran: 'inspektur' },
+  { id: 'U-ADM', nama: 'Uju', peran: 'admin_inspektorat' },
+  { id: 'U-DAL', nama: 'Luluk Chairun Nikmah, S.E.', peran: 'dalnis' },
+  { id: 'U-KT', nama: 'Ridho Haris Trih, S.Ak.', peran: 'ketua_tim' },
+  { id: 'U-AT1', nama: 'Satrio Endriatomo, S.Ak.', peran: 'anggota_tim' },
+  { id: 'U-AT2', nama: 'Nurul Fajri Rasyidah, S.E.', peran: 'anggota_tim' },
+  { id: 'U-OPD1', nama: 'Fauzi Abdiansyah, S.E.', peran: 'admin_opd', opdId: 'PUPR' },
+  { id: 'U-OPD2', nama: 'Eka Wahyuni H.', peran: 'admin_opd', opdId: 'DISDIK' },
 ];
 
 const jejak = (oleh, aksi, catatan, waktu) => ({ oleh, aksi, catatan, waktu });
@@ -115,7 +115,7 @@ export function buildSeed() {
     },
     {
       id: 'TM-005', nomorLhp: '700/031/LHP-ITKAB/VIII/2026', tanggalLhp: '2026-08-24',
-      namaPemeriksaan: 'Pemeriksaan Reguler Dinas Pendidikan TA 2025', opdId: 'DISDIK',
+      namaPemeriksaan: 'Pemeriksaan Reguler Dinas Pendidikan dan Kebudayaan TA 2025', opdId: 'DISDIK',
       judul: 'Belanja perjalanan dinas tidak didukung bukti pertanggungjawaban lengkap',
       kondisi: 'Terdapat SPJ perjalanan dinas yang tidak dilengkapi bukti tiket/boarding pass dan bukti penginapan.',
       kriteria: 'Permendagri 77 Tahun 2020 tentang Pedoman Teknis Pengelolaan Keuangan Daerah; Peraturan Bupati tentang perjalanan dinas.',
@@ -130,7 +130,7 @@ export function buildSeed() {
     },
     {
       id: 'TM-006', nomorLhp: '700/031/LHP-ITKAB/VIII/2026', tanggalLhp: '2026-08-24',
-      namaPemeriksaan: 'Pemeriksaan Reguler Dinas Pendidikan TA 2025', opdId: 'DISDIK',
+      namaPemeriksaan: 'Pemeriksaan Reguler Dinas Pendidikan dan Kebudayaan TA 2025', opdId: 'DISDIK',
       judul: 'Pengadaan buku perpustakaan sekolah tidak melalui katalog elektronik',
       kondisi: 'Pengadaan buku perpustakaan untuk beberapa sekolah dilakukan melalui pengadaan langsung, padahal barang tersedia di katalog elektronik.',
       kriteria: 'Perpres 16 Tahun 2018 dan perubahannya.',
@@ -181,7 +181,7 @@ export function buildSeed() {
     },
     {
       id: 'TM-009', nomorLhp: '', tanggalLhp: '',
-      namaPemeriksaan: 'Pemeriksaan Reguler Dinas Pendidikan TA 2025', opdId: 'DISDIK',
+      namaPemeriksaan: 'Pemeriksaan Reguler Dinas Pendidikan dan Kebudayaan TA 2025', opdId: 'DISDIK',
       judul: 'Kelebihan pembayaran tunjangan tambahan penghasilan pegawai',
       kondisi: 'Terdapat pegawai yang tetap menerima TPP penuh meskipun tingkat kehadiran di bawah ketentuan.',
       kriteria: 'Peraturan Bupati tentang Tambahan Penghasilan Pegawai ASN.',

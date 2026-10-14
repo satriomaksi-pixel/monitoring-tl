@@ -25,12 +25,12 @@ const ALUR = [
 ];
 
 const SKENARIO = [
-  'Masuk sebagai Anggota Tim (Dimas) → buka draf "Kelebihan pembayaran TPP" → lengkapi → Simpan & Ajukan.',
+  'Masuk sebagai Anggota Tim (Satrio) → buka draf "Kelebihan pembayaran TPP" → lengkapi → Simpan & Ajukan.',
   'Ganti akun ke Ketua Tim → Dashboard menampilkan tugas reviu → buka temuan → Kembalikan dengan catatan.',
   'Ganti ke Anggota Tim → perbaiki sesuai catatan → ajukan lagi → Ketua Tim menyetujui.',
   'Ganti ke Dalnis → setujui → temuan final dan batas waktu 60 hari terisi otomatis.',
-  'Ganti ke Admin Dinas Pendidikan → hanya melihat temuan Disdik → unggah bukti tindak lanjut.',
-  'Ganti ke Admin Dinas PUPR → buktikan bahwa temuan Disdik tidak terlihat (pembatasan akses).',
+  'Ganti ke Admin Disdikbud → hanya melihat temuan Disdikbud → unggah bukti tindak lanjut.',
+  'Ganti ke Admin Dinas PUPR → buktikan bahwa temuan Disdikbud tidak terlihat (pembatasan akses).',
   'Ganti ke Admin Inspektorat → menu Tindak Lanjut → verifikasi "Sesuai" → dashboard ter-update.',
   'Masuk sebagai Inspektur → lihat dashboard semua OPD dan Audit Trail seluruh aktivitas.',
 ];

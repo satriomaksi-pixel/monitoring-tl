@@ -55,7 +55,7 @@ export default function LoginPage() {
                   {USERS.filter((u) => g.peran.includes(u.peran)).map((u) => (
                     <button key={u.id} onClick={() => masuk(u.id)} disabled={!ready}
                       className="group rounded-xl border border-slate-200 p-4 text-left transition hover:border-navy-700 hover:shadow-md disabled:opacity-60">
-                      <div className="text-sm font-bold text-navy-900 group-hover:text-navy-700">{PERAN[u.peran]}{u.opdId ? ` — ${u.opdId === 'PUPR' ? 'Dinas PUPR' : 'Dinas Pendidikan'}` : ''}</div>
+                      <div className="text-sm font-bold text-navy-900 group-hover:text-navy-700">{PERAN[u.peran]}{u.opdId ? ` — ${u.opdId === 'PUPR' ? 'Dinas PUPR' : 'Disdikbud'}` : ''}</div>
                       <div className="text-sm text-slate-600">{u.nama}</div>
                       <div className="mt-2 text-xs leading-relaxed text-slate-500">{DESKRIPSI_PERAN[u.peran]}</div>
                     </button>
@@ -65,7 +65,7 @@ export default function LoginPage() {
             ))}
           </div>
           <p className="mt-6 text-xs text-slate-500">
-            Seluruh data adalah simulasi dan dianonimkan (UU No. 27/2022 tentang PDP). Data tersimpan di browser masing-masing pengguna.
+            Data temuan adalah simulasi; nama penyedia, sekolah, dan nomor dokumen fiktif (UU No. 27/2022 tentang PDP). Data tersimpan di browser masing-masing pengguna.
           </p>
         </div>
       </main>

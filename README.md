@@ -21,7 +21,7 @@ Proses yang semula berbasis surat, berkas fisik, dan rekap Excel diganti dengan 
    Sesuai, Belum Sesuai, atau Tidak Dapat Ditindaklanjuti.
 6. **Inspektur** dan **Admin Inspektorat** memantau dashboard semua OPD, batas waktu 60 hari, dan audit trail.
 
-OPD contoh: **Dinas PUPR** dan **Dinas Pendidikan**.
+OPD contoh: **Dinas PUPR** dan **Dinas Pendidikan dan Kebudayaan (Disdikbud)**.
 
 ## Fitur utama
 

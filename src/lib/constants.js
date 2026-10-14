@@ -11,7 +11,7 @@ export const PERAN = {
 
 export const OPD = {
   PUPR: 'Dinas Pekerjaan Umum dan Penataan Ruang',
-  DISDIK: 'Dinas Pendidikan',
+  DISDIK: 'Dinas Pendidikan dan Kebudayaan',
 };
 
 // Status reviu temuan (alur internal Inspektorat)

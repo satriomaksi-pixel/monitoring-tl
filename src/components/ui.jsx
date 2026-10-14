@@ -16,7 +16,7 @@ export const BadgePeran = ({ user }) => (
     {PERAN[user.peran]}{user.opdId ? ` · ${user.opdId}` : ''}
   </Badge>
 );
-export const BadgeOPD = ({ id }) => <Badge cls="bg-white text-slate-700 ring-slate-300" >{id === 'PUPR' ? 'Dinas PUPR' : 'Dinas Pendidikan'}</Badge>;
+export const BadgeOPD = ({ id }) => <Badge cls="bg-white text-slate-700 ring-slate-300" >{id === 'PUPR' ? 'Dinas PUPR' : 'Disdikbud'}</Badge>;
 export const namaOPD = (id) => OPD[id] || id;
 
 export function PageHeader({ title, subtitle, actions }) {
